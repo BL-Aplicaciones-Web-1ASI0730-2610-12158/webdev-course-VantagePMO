@@ -2,7 +2,7 @@
 ## Resumen del Curso
 Este curso de 1 hora introduce a estudiantes de secundaria los fundamentos del desarrollo web en HTML Y CSS. **¡No requiere descargas!** Solo abre tu navegador web.
 
-**Duración total:** ~60 minutos  
+**Duración total:** 60 minutos  
 **Público objetivo:** Estudiantes de 12 a 17 años sin experiencia en programación  
 **Prerrequisitos:** Ninguno  
 **Herramientas necesarias:** **¡Solo tu navegador web!** (Chrome, Firefox, Safari, Edge)  
