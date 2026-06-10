@@ -69,7 +69,7 @@ Este curso de 1 hora introduce a estudiantes de secundaria los fundamentos del d
 
 ---
 
-## 👥 Elaboración
+## Elaboración
 **Universidad Peruana de Ciencias Aplicadas**  
 **Carrera:** Ingeniería de Software  
 **Curso:** 1ASI0730 Aplicaciones Web
