@@ -30,11 +30,16 @@ Este curso de 1 hora introduce a estudiantes de secundaria los fundamentos del d
 - **Conclusiones clave**: 
 - **Práctica**: [Clic para programar]() 👈 **¡Inicio inmediato!**
   
-### Lección 4: nombre-de-la-lección (N minutos)
+### Lección 4: Introducción a CSS (Dándole color y estilo) (11 minutos)
 - **Descripción**: 
-- **Enlace**: [Ver la lección]()
+Introducción a CSS, el lenguaje utilizado para mejorar la apariencia visual de las páginas web. Los estudiantes aprenderán cómo conectar CSS con HTML y cómo modificar colores, fondos, fuentes y alineación de texto mediante reglas de estilo sencillas. A través de ejemplos prácticos, descubrirán cómo transformar una página básica en una página más atractiva visualmente. 
+- **Enlace**: [Ver la lección](https://youtu.be/mYm5U6ZxOhM?si=7bVsml2H6elV7ESY)
 - **Conclusiones clave**: 
-- **Práctica**: [Clic para programar]() 👈 **¡Inicio inmediato!**
+* CSS permite personalizar el diseño y la apariencia de una página web.
+* Los estilos se aplican mediante selectores, propiedades y valores.
+* Es posible cambiar colores, fondos, tamaños de letra y alineación del texto con pocas líneas de código.
+* HTML proporciona la estructura y CSS se encarga de la presentación visual.
+- **Práctica**: [Clic para programar](https://codepen.io/Cesar-Augusto-the-solid/pen/GgrNjmM) 👈 **¡Inicio inmediato!** 
   
 ### Lección 5: nombre-de-la-lección (N minutos)
 - **Descripción**:
