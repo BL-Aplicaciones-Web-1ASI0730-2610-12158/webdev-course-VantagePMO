@@ -18,11 +18,17 @@ Este curso de 1 hora introduce a estudiantes de secundaria los fundamentos del d
 - **Conclusiones clave**:
 - **Práctica**: [Clic para programar]() 👈 **¡Inicio inmediato!**
   
-### Lección 2: nombre-de-la-lección (N minutos)
+### Lección 2: Bloques de Construcción (Texto y Contenido) (15 minutos)
 - **Descripción**:
-- **Enlace**: [Ver la lección]()
+En esta lección se introducen los bloques básicos de construcción de texto en HTML, fundamentales para estructurar el contenido de una página web.
+El video explica de manera clara y progresiva el uso de títulos, párrafos, formateo básico de texto y listas, empleando ejemplos simples y visuales en un editor en línea.
+- **Enlace**: [Ver la lección](https://youtu.be/Vl4T7Q8wqg4)
 - **Conclusiones clave**: 
-- **Práctica**: [Clic para programar]() 👈 **¡No es necesario registrarse!**
+* La organización del texto es fundamental para que una página web sea fácil de leer y comprender.
+* Utilizar diferentes niveles de títulos permite ordenar la información de forma clara y lógica.
+* Separar el contenido en párrafos ayuda a presentar las ideas de manera ordenada y evita textos largos y confusos.
+* Con estos elementos básicos, ya es posible construir el contenido textual completo de una página web sencilla.
+- **Práctica**: [Clic para programar](https://codepen.io/omthwqfn-the-flexboxer/pen/wBgoQaK) 👈 **¡No es necesario registrarse!**
   
 ### Lección 3: nombre-de-la-lección (N minutos)
 - **Descripción**: 
