@@ -33,11 +33,18 @@ El video explica de manera clara y progresiva el uso de títulos, párrafos, for
 * Con estos elementos básicos, ya es posible construir el contenido textual completo de una página web sencilla.
 - **Práctica**: [Clic para programar](https://codepen.io/omthwqfn-the-flexboxer/pen/wBgoQaK) 👈 **¡No es necesario registrarse!**
   
-### Lección 3: nombre-de-la-lección (N minutos)
-- **Descripción**:
-- **Enlace**: [Ver la lección]()
+### Lección 3: Conectando el Contenido (Enlaces, Imágenes y Atributos) (11 minutos)
+- **Descripción**: 
+En esta lección se introducen las imágenes y los enlaces en HTML, elementos fundamentales para hacer que una página web sea más visual e interactiva.
+El video explica de manera sencilla el concepto de atributos, mostrando cómo proporcionan información adicional a las etiquetas HTML para que puedan cumplir funciones específicas.
+- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=SwC48M9rWbc)
 - **Conclusiones clave**:
-- **Práctica**: [Clic para programar]() 👈 **¡Inicio inmediato!**
+* Las imágenes permiten enriquecer visualmente una página web y mejorar la experiencia del usuario.
+* Los enlaces hacen posible la navegación entre diferentes páginas y recursos en Internet.
+* Los atributos proporcionan información adicional que ayuda a los elementos HTML a cumplir funciones específicas.
+* La accesibilidad es un aspecto importante al trabajar con contenido visual dentro de una página web.
+* Es posible combinar distintos elementos para crear experiencias más dinámicas e interactivas.
+- **Práctica**: [Clic para programar](https://codepen.io/Alvaro-Rocha-the-looper/pen/pvRREVq) 👈 **¡No es necesario registrarse!**
   
 ### Lección 4: Introducción a CSS (Dándole color y estilo) (11 minutos)
 - **Descripción**: 
