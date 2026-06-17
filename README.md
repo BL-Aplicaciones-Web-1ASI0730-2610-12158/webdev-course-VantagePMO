@@ -12,11 +12,14 @@ Este curso de 1 hora introduce a estudiantes de secundaria los fundamentos del d
 
 ## Secuencia de la Lección
 
-### Lección 1: nombre-de-la-lección (N minutos)
-- **Descripción**:
-- **Enlace**: [Ver la lección]()
+### Lección 1: Introducción y la Anatomía de HTML (12 minutos)
+- **Descripción**: Esta lección introductoria para principiantes está enfocada en perder el miedo al código. Explica la diferencia entre HTML (estructura) y CSS (diseño) mediante analogías simples, enseña a configurar un editor en la nube (CodePen o StackBlitz) y analiza la estructura básica (<html>, <head>, <body>) hasta crear un primer "Hola Mundo".
+- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=vUEeBCR51eY)
 - **Conclusiones clave**:
-- **Práctica**: [Clic para programar]() 👈 **¡Inicio inmediato!**
+* HTML es estructura: Al ser un lenguaje de marcado y no de programación, ofrece una curva de aprendizaje sumamente amigable.
+* Configuración express: Herramientas como CodePen permiten programar al instante desde el navegador, sin instalar nada.
+* Estructura universal: Toda web comparte la misma base: un "cerebro" para metadatos (<head>) y un "cuerpo" para el contenido visible (<body>).
+- **Práctica**: [Clic para programar](https://codepen.io/MAURICIO-ALEJANDRO-TERAN-ZAVALA/pen/NPddxoO) 👈 **¡Inicio inmediato!**
   
 ### Lección 2: Bloques de Construcción (Texto y Contenido) (15 minutos)
 - **Descripción**:
@@ -31,9 +34,9 @@ El video explica de manera clara y progresiva el uso de títulos, párrafos, for
 - **Práctica**: [Clic para programar](https://codepen.io/omthwqfn-the-flexboxer/pen/wBgoQaK) 👈 **¡No es necesario registrarse!**
   
 ### Lección 3: nombre-de-la-lección (N minutos)
-- **Descripción**: 
+- **Descripción**:
 - **Enlace**: [Ver la lección]()
-- **Conclusiones clave**: 
+- **Conclusiones clave**:
 - **Práctica**: [Clic para programar]() 👈 **¡Inicio inmediato!**
   
 ### Lección 4: Introducción a CSS (Dándole color y estilo) (11 minutos)
