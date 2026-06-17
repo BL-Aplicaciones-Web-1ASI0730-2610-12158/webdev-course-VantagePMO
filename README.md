@@ -14,7 +14,7 @@ Este curso de 1 hora introduce a estudiantes de secundaria los fundamentos del d
 
 ### Lección 1: Introducción y la Anatomía de HTML (12 minutos)
 - **Descripción**: Esta lección introductoria para principiantes está enfocada en perder el miedo al código. Explica la diferencia entre HTML (estructura) y CSS (diseño) mediante analogías simples, enseña a configurar un editor en la nube (CodePen o StackBlitz) y analiza la estructura básica (<html>, <head>, <body>) hasta crear un primer "Hola Mundo".
-- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=vUEeBCR51eY)
+- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=Woilh1VpLnI)
 - **Conclusiones clave**:
 * HTML es estructura: Al ser un lenguaje de marcado y no de programación, ofrece una curva de aprendizaje sumamente amigable.
 * Configuración express: Herramientas como CodePen permiten programar al instante desde el navegador, sin instalar nada.
