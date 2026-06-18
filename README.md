@@ -6,7 +6,7 @@ Este curso de 1 hora introduce a estudiantes de secundaria los fundamentos del d
 **Público objetivo:** Estudiantes de 12 a 17 años sin experiencia en programación  
 **Prerrequisitos:** Ninguno  
 **Herramientas necesarias:** **¡Solo tu navegador web!** (Chrome, Firefox, Safari, Edge)  
-**📂 Repositorio de Código Fuente**: [https://github.com/BL-Aplicaciones-Web-1ASI0730-2610-12158/webdev-course-VantagePMO](https://github.com/BL-Aplicaciones-Web-1ASI0730-2610-12158/webdev-course-VantagePMO)
+**📂 Repositorio de Código Fuente**: [https://github.com/BL-Aplicaciones-Web-1ASI0730-2610-12158/webdev-course-VantagePMO](https://github.com/BL-Aplicaciones-Web-1ASI0730-2610-12158/webdev-course-VantagePMO/tree/main/class-materials)
 
 ---
 
@@ -66,7 +66,7 @@ Introducción a CSS, el lenguaje utilizado para mejorar la apariencia visual de 
 ---
 
 ## Recursos adicionales
-- **Código fuente completo**: [Repositorio de GitHub]()
+- **Código fuente completo**: [Repositorio de GitHub](https://github.com/BL-Aplicaciones-Web-1ASI0730-2610-12158/webdev-course-VantagePMO/tree/main/class-materials)
 - **Todas las actividades prácticas**:
   
 | Número de lección | Actividad | Empezar a programar |
