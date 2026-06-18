@@ -27,10 +27,10 @@ En esta lección se introducen los bloques básicos de construcción de texto en
 El video explica de manera clara y progresiva el uso de títulos, párrafos, formateo básico de texto y listas, empleando ejemplos simples y visuales en un editor en línea.
 - **Enlace**: [Ver la lección](https://youtu.be/Vl4T7Q8wqg4)
 - **Conclusiones clave**: 
-* La organización del texto es fundamental para que una página web sea fácil de leer y comprender.
-* Utilizar diferentes niveles de títulos permite ordenar la información de forma clara y lógica.
-* Separar el contenido en párrafos ayuda a presentar las ideas de manera ordenada y evita textos largos y confusos.
-* Con estos elementos básicos, ya es posible construir el contenido textual completo de una página web sencilla.
+  - La organización del texto es fundamental para que una página web sea fácil de leer y comprender.
+  - Utilizar diferentes niveles de títulos permite ordenar la información de forma clara y lógica.
+  - Separar el contenido en párrafos ayuda a presentar las ideas de manera ordenada y evita textos largos y confusos.
+  - Con estos elementos básicos, ya es posible construir el contenido textual completo de una página web sencilla.
 - **Práctica**: [Clic para programar](https://codepen.io/omthwqfn-the-flexboxer/pen/wBgoQaK) 👈 **¡No es necesario registrarse!**
   
 ### Lección 3: Conectando el Contenido (Enlaces, Imágenes y Atributos) (11 minutos)
@@ -39,11 +39,11 @@ En esta lección se introducen las imágenes y los enlaces en HTML, elementos fu
 El video explica de manera sencilla el concepto de atributos, mostrando cómo proporcionan información adicional a las etiquetas HTML para que puedan cumplir funciones específicas.
 - **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=SwC48M9rWbc)
 - **Conclusiones clave**:
-* Las imágenes permiten enriquecer visualmente una página web y mejorar la experiencia del usuario.
-* Los enlaces hacen posible la navegación entre diferentes páginas y recursos en Internet.
-* Los atributos proporcionan información adicional que ayuda a los elementos HTML a cumplir funciones específicas.
-* La accesibilidad es un aspecto importante al trabajar con contenido visual dentro de una página web.
-* Es posible combinar distintos elementos para crear experiencias más dinámicas e interactivas.
+  - Las imágenes permiten enriquecer visualmente una página web y mejorar la experiencia del usuario.
+  - Los enlaces hacen posible la navegación entre diferentes páginas y recursos en Internet.
+  - Los atributos proporcionan información adicional que ayuda a los elementos HTML a cumplir funciones específicas.
+  - La accesibilidad es un aspecto importante al trabajar con contenido visual dentro de una página web.
+  - Es posible combinar distintos elementos para crear experiencias más dinámicas e interactivas.
 - **Práctica**: [Clic para programar](https://codepen.io/Alvaro-Rocha-the-looper/pen/pvRREVq) 👈 **¡No es necesario registrarse!**
   
 ### Lección 4: Introducción a CSS (Dándole color y estilo) (11 minutos)
@@ -51,10 +51,10 @@ El video explica de manera sencilla el concepto de atributos, mostrando cómo pr
 Introducción a CSS, el lenguaje utilizado para mejorar la apariencia visual de las páginas web. Los estudiantes aprenderán cómo conectar CSS con HTML y cómo modificar colores, fondos, fuentes y alineación de texto mediante reglas de estilo sencillas. A través de ejemplos prácticos, descubrirán cómo transformar una página básica en una página más atractiva visualmente. 
 - **Enlace**: [Ver la lección](https://youtu.be/mYm5U6ZxOhM?si=7bVsml2H6elV7ESY)
 - **Conclusiones clave**: 
-* CSS permite personalizar el diseño y la apariencia de una página web.
-* Los estilos se aplican mediante selectores, propiedades y valores.
-* Es posible cambiar colores, fondos, tamaños de letra y alineación del texto con pocas líneas de código.
-* HTML proporciona la estructura y CSS se encarga de la presentación visual.
+  - * CSS permite personalizar el diseño y la apariencia de una página web.
+  - Los estilos se aplican mediante selectores, propiedades y valores.
+  - Es posible cambiar colores, fondos, tamaños de letra y alineación del texto con pocas líneas de código.
+  - HTML proporciona la estructura y CSS se encarga de la presentación visual.
 - **Práctica**: [Clic para programar](https://codepen.io/Cesar-Augusto-the-solid/pen/GgrNjmM) 👈 **¡Inicio inmediato!** 
   
 ### Lección 5: nombre-de-la-lección (N minutos)
@@ -63,31 +63,23 @@ Introducción a CSS, el lenguaje utilizado para mejorar la apariencia visual de 
 - **Conclusiones clave**: 
 - **Práctica**: [Clic para programar]() 👈 **¡Inicio inmediato!**
 
-### Lección 6: nombre-de-la-lección (N minutos)
-- **Descripción**: 
-- **Enlace**: [Ver la lección]()
-- **Consejos clave**: 
-- **Práctica**: [Clic para programar]() 👈 **¡Inicio inmediato!**
-
 ---
 
 ## Recursos adicionales
 - **Código fuente completo**: [Repositorio de GitHub]()
 - **Todas las actividades prácticas**:
   
-| Número de lección | Actividad                    | Empezar a programar                                                 |
-|-------------------|------------------------------|---------------------------------------------------------------------|
-| 1                 |                              | [Replit]()                          |
-| 2                 |                              | [JDoodle]()             |
-| 3                 |                              | [OnlineGDB]()                       |
-| 4                 |                              | [OnlineGDB]()                        |
-| 5                 |                              | [Replit]()                          |
-| 6                 |                              | [Replit]()                          |
+| Número de lección | Actividad | Empezar a programar |
+|----------|----------|-------------|
+| 1 | Introducción y la Anatomía de HTML | [CodePen](https://codepen.io/)  |
+| 2 | Bloques de Construcción (Texto y Contenido)| [CodePen](https://codepen.io/)  |
+| 3 | Conectando el Contenido (Enlaces, Imágenes y Atributos)| [CodePen](https://codepen.io/) |
+| 4 | Introducción a CSS (Dándole Color y Estilo)| [CodePen](https://codepen.io/) |
+| 5 | El Modelo de Caja y Despliegue de la Web | [CodePen](https://codepen.io/)  |
 
-- Cuestionario: [Prueba de conocimientos]()  
+- Cuestionario: [Prueba de conocimientos]()
   
 **¡Gracias por completar el curso!**
-
 ---
 
 ## Elaboración
@@ -108,4 +100,4 @@ Introducción a CSS, el lenguaje utilizado para mejorar la apariencia visual de 
 - Guillen Giraldo, Mike Dylan
 - Teran Zavala, Mauricio Alejandro  
 
-**Fecha de entrega:** 20/06/2025
+**Fecha de entrega:** 18/06/2025
