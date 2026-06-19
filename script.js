@@ -44,22 +44,26 @@ function evaluateQuiz(event) {
     // Mostrar contenedor de resultados
     const resultCard = document.getElementById('quiz-result');
     const scoreText = document.getElementById('score-text');
+    const scoreTitle = document.getElementById('score-title'); // Seleccionamos el título
     const scoreFeedback = document.getElementById('score-feedback');
     const circleScore = document.querySelector('.circle-score');
 
     resultCard.style.display = 'flex';
     scoreText.textContent = `${score}/${totalQuestions}`;
 
-    // Configuración dinámica según el puntaje
+    // Lógica dinámica basada en la nota
     if (score === totalQuestions) {
-        scoreFeedback.textContent = '¡Dominas los fundamentos de Java!';
-        circleScore.style.backgroundColor = '#52a96c'; 
+        scoreTitle.textContent = '¡Excelente trabajo!';
+        scoreFeedback.textContent = '¡Dominas los fundamentos del curso!';
+        circleScore.style.backgroundColor = '#52a96c'; // Verde éxito
     } else if (score >= 7) {
-        scoreFeedback.textContent = '¡Buen trabajo! Tienes bases sólidas.';
-        circleScore.style.backgroundColor = '#52a96c';
+        scoreTitle.textContent = '¡Buen trabajo!';
+        scoreFeedback.textContent = 'Has aprobado, pero puedes revisar los temas que fallaste.';
+        circleScore.style.backgroundColor = '#52a96c'; // Verde éxito
     } else {
-        scoreFeedback.textContent = 'Sigue practicando para dominar el lenguaje.';
-        circleScore.style.backgroundColor = '#d9534f'; // Rojo amigable si es menor
+        scoreTitle.textContent = '¡Sigue practicando!';
+        scoreFeedback.textContent = 'No alcanzaste la nota mínima. ¡Vuelve a intentarlo para mejorar!';
+        circleScore.style.backgroundColor = '#d9534f'; // Rojo amigable para notas bajas
     }
 
     resultCard.scrollIntoView({ behavior: 'smooth' });
