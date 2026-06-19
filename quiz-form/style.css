@@ -1,0 +1,268 @@
+:root {
+    --primary-color: #0f2d59; /* Azul oscuro como en las imágenes */
+    --primary-hover: #1e457e;
+    --bg-color: #f1f5f9;
+    --card-bg: #ffffff;
+    --text-color: #1e293b;
+    --text-muted: #64748b;
+    --correct-bg: #4caf50;
+    --correct-light: #e8f5e9;
+    --border-color: #cbd5e1;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.5;
+    padding-bottom: 60px;
+}
+
+header {
+    background: linear-gradient(180deg, #0f2547, #133a6f);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.85;
+}
+
+/* Contenedor de navegación con estilo azul unificado */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px auto;
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.nav-btn {
+    flex: 1;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    text-align: center;
+}
+
+/* Estilos para estado activo e inactive según el diseño azul solicitado */
+.btn-active {
+    background-color: var(--primary-color);
+    color: white;
+    border: 2px solid var(--primary-color);
+}
+
+.btn-inactive {
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.btn-inactive:hover {
+    background-color: rgba(15, 45, 89, 0.08);
+}
+
+.main-container {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section-panel {
+    display: none;
+    background: var(--card-bg);
+    border-radius: 16px;
+    padding: 35px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+
+.section-panel.active {
+    display: block;
+}
+
+/* Tarjeta de preguntas */
+.question-card {
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+}
+
+.question-meta {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #2563eb;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.question-text {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+    color: #0f172a;
+}
+
+.options-list {
+    list-style: none;
+}
+
+.option-item {
+    margin-bottom: 12px;
+}
+
+.option-label {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.option-label:hover {
+    background-color: #f8fafc;
+}
+
+.option-label input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    accent-color: var(--primary-color);
+}
+
+/* Estilos de la tarjeta circular de resultados (idéntica a la imagen) */
+.result-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    text-align: center;
+    animation: fadeIn 0.4s ease-out;
+}
+
+.circle-score {
+    width: 130px;
+    height: 130px;
+    background-color: #52a96c; /* Color verde exacto de la captura */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(82, 169, 108, 0.2);
+}
+
+.result-card-container h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 8px;
+}
+
+.result-card-container p {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    margin-bottom: 25px;
+}
+
+/* Botón Intentar de nuevo */
+.retry-btn {
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.retry-btn:hover {
+    background-color: rgba(15, 45, 89, 0.05);
+}
+
+/* Formulario */
+.form-group {
+    margin-bottom: 24px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #334155;
+}
+
+.form-group label span {
+    font-weight: normal;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.form-control {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    font-size: 1rem;
+    color: var(--text-color);
+    outline: none;
+    background-color: #fff;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+}
+
+textarea.form-control {
+    resize: vertical;
+    min-height: 110px;
+}
+
+/* Botones principales de envío */
+.submit-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 30px; /* Redondeado igual que los botones superiores */
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: var(--primary-hover);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}

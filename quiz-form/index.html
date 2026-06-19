@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de Java - Evaluación Final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Fundamentos de Desarrollo Web</h1>
+        <p>Evaluación final del curso</p>
+    </header>
+
+    <div class="nav-container">
+        <button id="nav-quiz" class="nav-btn btn-active" onclick="switchTab('quiz')">Prueba de conocimientos</button>
+        <button id="nav-share" class="nav-btn btn-inactive" onclick="switchTab('share')">Comparte tu proyecto</button>
+    </div>
+
+    <main class="main-container">
+        <!-- SECCIÓN: PRUEBA DE CONOCIMIENTOS -->
+        <section id="panel-quiz" class="section-panel active">
+            <form id="quiz-form" onsubmit="evaluateQuiz(event)">
+                
+                <!-- P1 -->
+                <div class="question-card">
+                    <div class="question-meta">Pregunta 1 · Lección 1</div>
+                    <div class="question-text">¿Cuál es la diferencia fundamental entre HTML y CSS expuesta en el curso?</div>
+                    <ul class="options-list">
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q1" value="A" required>
+                                <span>HTML es para bases de datos y CSS es para la lógica del servidor.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q1" value="B">
+                                <span>HTML define la estructura y el contenido, mientras que CSS se encarga del diseño y la presentación visual.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q1" value="C">
+                                <span>HTML es un lenguaje de programación complejo y CSS es un archivo de texto plano.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q1" value="D">
+                                <span>No hay diferencia, ambos cumplen exactamente la misma función en el navegador.</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- P2 -->
+                <div class="question-card">
+                    <div class="question-meta">Pregunta 2 · Lección 2</div>
+                    <div class="question-text">¿Por qué HTML ofrece una curva de aprendizaje sumamente amigable para principiantes?</div>
+                    <ul class="options-list">
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q2" value="A" required>
+                                <span>Porque es un lenguaje de marcado y no un lenguaje de programación.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q2" value="B">
+                                <span>Porque autocompila el código directamente en el sistema operativo.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q2" value="C">
+                                <span>Porque solo requiere el uso de la etiqueta de "Hola Mundo".</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q2" value="D">
+                                <span>Porque utiliza inteligencia artificial para corregir errores de sintaxis automáticamente.</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- P3 -->
+                <div class="question-card">
+                    <div class="question-meta">Pregunta 3 · Lección 1</div>
+                    <div class="question-text">¿Qué elementos componen la estructura básica y universal de un documento HTML?</div>
+                    <ul class="options-list">
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q3" value="A" required>
+                                <span>&lt;header&gt;, &lt;main&gt; y &lt;footer&gt; de forma exclusiva.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q3" value="B">
+                                <span>Únicamente la etiqueta &lt;html&gt; sin divisiones internas.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q3" value="C">
+                                <span>La etiqueta raíz &lt;html&gt;, el metadato oculto (&lt;head&gt;) y el cuerpo para contenido visible (&lt;body&gt;).</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q3" value="D">
+                                <span>Un archivo .css enlazado a un bloque de texto plano sin etiquetas.</</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- P4 -->
+                <div class="question-card">
+                    <div class="question-meta">Pregunta 4 · Lección 2</div>
+                    <div class="question-text">Al organizar el contenido textual de una página, ¿cuál es el beneficio de utilizar diferentes niveles de títulos (h1 a h6)?</div>
+                    <ul class="options-list">
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q4" value="A" required>
+                                <span>Cambiar de color el texto de forma aleatoria.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q4" value="B">
+                                <span>Ordenar y jerarquizar la información de forma clara, lógica y legible.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q4" value="C">
+                                <span>Insertar enlaces ocultos dentro del contenido.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q4" value="D">
+                                <span>Es obligatorio usarlos todos para que la página pueda compilarse.</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- P5 -->
+                <div class="question-card">
+                    <div class="question-meta">Pregunta 5 · Lección 2</div>
+                    <div class="question-text">¿Qué función principal cumplen los párrafos (&lt;p&gt;) dentro del diseño de contenido de un sitio web?</div>
+                    <ul class="options-list">
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q5" value="A" required>
+                                <span>Permiten estructurar bloques de código CSS dentro de HTML.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q5" value="B">
+                                <span>Insertar imágenes de fondo estructuradas automáticamente.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q5" value="C">
+                                <span>Separar ideas de manera ordenada, evitando textos masivos, largos y confusos.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q5" value="D">
+                                <span>Crear listas con viñetas numéricas avanzadas.</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- P6 -->
+                <div class="question-card">
+                    <div class="question-meta">Pregunta 6 · Lección 3</div>
+                    <div class="question-text">¿Qué concepto de HTML proporciona información adicional a las etiquetas para que puedan cumplir funciones específicas (como definir el destino de un enlace)?</div>
+                    <ul class="options-list">
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q6" value="A" required>
+                                <span>Los selectores</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q6" value="B">
+                                <span>Los atributos</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q6" value="C">
+                                <span>Los metadatos</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q6" value="D">
+                                <span>Las variables externas</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- P7 -->
+                <div class="question-card">
+                    <div class="question-meta">Pregunta 7 · Lección 3</div>
+                    <div class="question-text">Al trabajar con imágenes en HTML, ¿por qué es importante considerar el aspecto de la accesibilidad?</div>
+                    <ul class="options-list">
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q7" value="A" required>
+                                <span>Para asegurar que los lectores de pantalla puedan describir el contenido visual a usuarios con discapacidad visual.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q7" value="B">
+                                <span>Para que la imagen cargue de manera inmediata en resoluciones móviles 4K.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q7" value="C">
+                                <span>Es un requerimiento para enlazar estilos de fuentes de Google Fonts.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q7" value="D">
+                                <span>Para comprimir automáticamente el peso de la imagen original.</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- P8 -->
+                <div class="question-card">
+                    <div class="question-meta">Pregunta 8 · Lección 4</div>
+                    <div class="question-text">¿Cuáles son los componentes básicos utilizados en una regla de estilo CSS para aplicar un diseño a un elemento HTML?</div>
+                    <ul class="options-list">
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q8" value="A" required>
+                                <span>Etiquetas, hipervínculos y scripts de JavaScript.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q8" value="B">
+                                <span>Selectores, propiedades y valores.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q8" value="C">
+                                <span>Contenedor, metadato e indexado.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q8" value="D">
+                                <span>Variables enteras, funciones de retorno y constantes</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- P9 -->
+                <div class="question-card">
+                    <div class="question-meta">Pregunta 9 · Lección 5</div>
+                    <div class="question-text">¿Qué tres propiedades fundamentales constituyen la estructura visual del "Modelo de Caja" en CSS?</div>
+                    <ul class="options-list">
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q9" value="A" required>
+                                <span>Margin (margen), Border (borde) y Padding (relleno).</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q9" value="B">
+                                <span>Width, Height y Background-color.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q9" value="C">
+                                <span>Color, Font-size y Text-align.</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q9" value="D">
+                                <span>Display, Position y Grid-template.</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- P10 -->
+                <div class="question-card">
+                    <div class="question-meta">Pregunta 10 · Lección 5</div>
+                    <div class="question-text">¿Qué propiedad nos permite modificar la dimensión horizontal de un elemento para facilitar su centrado en la pantalla?</div>
+                    <ul class="options-list">
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q10" value="A" required>
+                                <span>padding-left</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q10" value="B">
+                                <span>border-width</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q10" value="C">
+                                <span>width (ancho)</span>
+                            </label>
+                        </li>
+                        <li class="option-item">
+                            <label class="option-label">
+                                <input type="radio" name="q10" value="D">
+                                <span>margin-top</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <button type="submit" class="submit-btn">Ver mis resultados</button>
+            </form>
+
+            <!-- Contenedor interno de resultados tipo tarjeta circular verde como en la imagen -->
+            <div id="quiz-result" class="result-card-container" style="display: none;">
+                <div class="circle-score">
+                    <span id="score-text">10/10</span>
+                </div>
+                <h3>¡Excelente trabajo!</h3>
+                <p id="score-feedback">¡Dominas los fundamentos del Desarrollo Web!</p>
+                <button type="button" class="retry-btn" onclick="resetQuiz()">Intentar de nuevo</button>
+            </div>
+        </section>
+
+        <!-- SECCIÓN: COMPARTE TU PROYECTO -->
+        <section id="panel-share" class="section-panel">
+    <h2>Comparte tu creación</h2>
+    <p style="color: var(--text-muted); margin-bottom: 20px;">¡Muéstranos lo que construiste! Completa los campos que quieras.</p>
+
+    <form id="share-form" onsubmit="submitProject(event)">
+        <div class="form-group">
+            <label for="proj-name">Nombre <span>(opcional)</span></label>
+            <input type="text" id="proj-name" class="form-control" placeholder="Tu nombre o apodo">
+        </div>
+
+        <div class="form-group">
+            <label for="enlace">Enlace a tu proyecto en Replit / Codepen</label>
+            <input type="url" id="enlace" class="form-control" placeholder="https://replit.com/... o https://codepen.io/..." required>
+        </div>
+
+        <div class="form-group">
+            <label for="proj-like">¿Qué fue lo que más te gustó aprender?</label>
+            <textarea id="proj-like" class="form-control" placeholder="Cuéntanos..."></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="proj-next">¿Qué te gustaría aprender después de HTML y CSS?</label>
+            <textarea id="proj-next" class="form-control" placeholder="Por ejemplo: aplicaciones móviles, videojuegos, inteligencia artificial..."></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn btn-send">Enviar</button>
+    </form>
+
+    <div id="share-success" style="display: none; text-align: center; padding: 20px; animation: fadeIn 0.4s ease-out;">
+        <h3 style="color: #2e7d32; font-size: 1.5rem; margin-bottom: 8px;">¡Gracias por compartir!</h3>
+        <p style="color: var(--text-muted); font-size: 1.1rem;">Tu proyecto ha sido registrado. ¡Sigue programando!</p>
+    </div>
+</section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
