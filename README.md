@@ -109,4 +109,4 @@ En esta lección final, los estudiantes aprenderán el Modelo de Caja (Box Model
 - Guillen Giraldo, Mike Dylan
 - Teran Zavala, Mauricio Alejandro  
 
-**Fecha de entrega:** 18/06/2025
+**Fecha de entrega:** 19/06/2025
