@@ -57,11 +57,20 @@ Introducción a CSS, el lenguaje utilizado para mejorar la apariencia visual de 
   - HTML proporciona la estructura y CSS se encarga de la presentación visual.
 - **Práctica**: [Clic para programar](https://codepen.io/Cesar-Augusto-the-solid/pen/GgrNjmM) 👈 **¡Inicio inmediato!** 
   
-### Lección 5: nombre-de-la-lección (N minutos)
+### Lección 5: El Modelo de Caja y Despliegue de la Web (11 minutos)
 - **Descripción**:
-- **Enlace**: [Ver la lección]()
+En esta lección final, los estudiantes aprenderán el Modelo de Caja (Box Model) y cómo utilizar **Content**, **Padding**, **Border** y **Margin** para organizar visualmente una página web. A través de ejemplos prácticos, aplicarán estos conceptos en un proyecto sobre el cuidado del medio ambiente, integrando HTML y CSS. Finalmente, conocerán cómo publicar su página en Internet utilizando Netlify.
+- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=7gecSNrc4YY)
 - **Conclusiones clave**: 
-- **Práctica**: [Clic para programar]() 👈 **¡Inicio inmediato!**
+  - El Modelo de Caja está compuesto por cuatro elementos: Content, Padding, Border y Margin.
+  - **Padding** controla el espacio interno de un elemento, mientras que **Margin** controla el espacio externo.
+  - El Modelo de Caja es fundamental para organizar y diseñar páginas web de manera profesional.
+  - HTML proporciona la estructura del contenido y CSS permite controlar su presentación y distribución visual.
+  - Es posible combinar todos los elementos aprendidos durante el curso para crear páginas web completas e informativas.
+  - Las páginas web pueden publicarse gratuitamente en Internet mediante servicios de despliegue como Netlify.
+
+- **Práctica**: [Clic para programar](https://codepen.io/D1l-_4N/pen/ZYLWOME) 👈 **¡Inicio inmediato!**
+- **Web Desplegada**: [Medio Ambiente](https://gleeful-torrone-280372.netlify.app/)
 
 ---
 
