@@ -51,7 +51,7 @@ El video explica de manera sencilla el concepto de atributos, mostrando cómo pr
 Introducción a CSS, el lenguaje utilizado para mejorar la apariencia visual de las páginas web. Los estudiantes aprenderán cómo conectar CSS con HTML y cómo modificar colores, fondos, fuentes y alineación de texto mediante reglas de estilo sencillas. A través de ejemplos prácticos, descubrirán cómo transformar una página básica en una página más atractiva visualmente. 
 - **Enlace**: [Ver la lección](https://youtu.be/mYm5U6ZxOhM?si=7bVsml2H6elV7ESY)
 - **Conclusiones clave**: 
-  - * CSS permite personalizar el diseño y la apariencia de una página web.
+  - CSS permite personalizar el diseño y la apariencia de una página web.
   - Los estilos se aplican mediante selectores, propiedades y valores.
   - Es posible cambiar colores, fondos, tamaños de letra y alineación del texto con pocas líneas de código.
   - HTML proporciona la estructura y CSS se encarga de la presentación visual.
