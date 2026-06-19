@@ -77,7 +77,7 @@ Introducción a CSS, el lenguaje utilizado para mejorar la apariencia visual de 
 | 4 | Introducción a CSS (Dándole Color y Estilo)| [CodePen](https://codepen.io/) |
 | 5 | El Modelo de Caja y Despliegue de la Web | [CodePen](https://codepen.io/)  |
 
-- Cuestionario: [Prueba de conocimientos]()
+- Cuestionario: [Prueba de conocimientos](https://bl-aplicaciones-web-1asi0730-2610-12158.github.io/webdev-course-VantagePMO/)
   
 **¡Gracias por completar el curso!**
 ---
